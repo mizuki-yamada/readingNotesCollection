@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# firebase
+# npm run deployをすると生成される。↓と明記しているが、ignoreされない。
+.firebase/

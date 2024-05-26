@@ -1,3 +1,5 @@
+// analyticsは設定していないが、appのunusedで怒られないためにとりあえず設定
+// ローカルの時はコメントアウトすれば動く
 import { getAnalytics } from "firebase/analytics";
 import { initializeApp } from "firebase/app";
 
